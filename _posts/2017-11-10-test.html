@@ -3,7 +3,11 @@ layout: default
 permalink: test.html
 title: Test page
 ---
-<div>
-	Just seeing if this works
+<div data-lang="en">
+    {% include test.html %}
+    <script type="text/javascript">
+//        $('head').append('<link rel="stylesheet" type="text/css" href="' + injectConfig.WJ_PATH + 'css/profile-web-form.css?v={{ site.version }}">');
+//        require([injectConfig.WJ_PATH + "js/deploy-profile-web-create-profile" + injectConfig.OPT_JS + ".js?v={{ site.version }}"], function(ResetPassword) { });
+    </script>
 </div>
-	
+
