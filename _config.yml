@@ -1,2 +1,4 @@
+name: Calgary District Pipe Band
+markdown: kramdown
 plugins:
   - jekyll-seo-tag
