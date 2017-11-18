@@ -1901,10 +1901,6 @@
 		white-space: nowrap;
 	}
 
-		input[type="submit"].icon:before,
-		input[type="reset"].icon:before,
-		input[type="button"].icon:before,
-		button.icon:before,
 		.button.icon:before {
 			margin-right: 0.5rem;
 		}
@@ -3592,15 +3588,37 @@
 				margin-top: -2rem;
 			}
 
-			#main > .post header.major > h1, #main > .post header.major h2 {
+			#main > .post header.major > h1, 
+			#main > .post header.major h2 {
 				font-size: 4rem;
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
 			}
-
+			
+			#main > .post header.major * {
+				z-index: 2;
+				position: relative;
+			}
+			
 			#main > .post.featured {
 				text-align: center;
 			}
+			
+			#main > .post.featured:before {
+				content: ' ';
+				display: block;
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 22%;
+				z-index: 1;
+				opacity: 0.5;
+				background-image: url("/images/logo2b.jpg");
+				background-repeat: repeat-x;
+				background-position: 60% 0;
+			}
+		
 
 			@media screen and (max-width: 1280px) {
 

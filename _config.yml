@@ -34,11 +34,10 @@ sass:
 disqus_shortname:   default
 
 # Social
-analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
+analytics-id:       "CDPBSociety"
+twitter:            "CDPBSociety"
+facebook:           "CDPBSociety"
+instagram:          "CDPBSociety"
 
 # personal
 location:          Calgary, AB
