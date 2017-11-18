@@ -3614,7 +3614,7 @@
 				height: 22%;
 				z-index: 1;
 				opacity: 0.5;
-				background-image: url("/images/logo2b.jpg");
+				background-image: url("/images/tartan.jpg");
 				background-repeat: repeat-x;
 				background-position: 60% 0;
 			}
@@ -3623,12 +3623,12 @@
 			@media screen and (max-width: 1280px) {
 
 				#main > .post {
-					padding: 6rem 4rem 4rem 4rem ;
+					padding: 4rem 2rem 2rem 2rem ;
 				}
 
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 800px) {
 
 				#main > .post {
 					padding: 4rem 2rem 2rem 2rem ;

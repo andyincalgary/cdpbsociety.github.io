@@ -10,21 +10,13 @@
     {% include head.html %}
 	</head>
 	<body class="is-loading">
+		<div id="wrapper" class="fade-in">
+			<header style="height:1px" id="header">
+			</header>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
-
-				<!-- Header -->
-				<header id="header">
-					<a href="{{ "/" | absolute_url }}" class="logo">{{site.page}}</a>
-				</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-
-            {% include nav.html %}
-						
-					</nav>
+			<nav id="nav">
+			{% include nav.html %}
+			</nav>
 
 				<!-- Main -->
 				<div id="main">
@@ -34,12 +26,6 @@
 						<p>{{content}}</p>
 					</section>
 
-					<!-- Footer -->
-						<footer>
-              <ul class="actions">
-								<li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
-              </ul>
-						</footer>
 					</div>
 
 				<!-- Footer -->
