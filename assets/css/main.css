@@ -2746,21 +2746,8 @@
 		header.major {
 			margin: 0 0 4rem 0;
 			text-align: center;
-			color: #ffffff;
-		}
-		header.major:before {
-			content: ' ';
-			display: block;
-			position: absolute;
-			left: 0;
-			top: 0;
-			width: 100%;
-			height: 22%;
-			z-index: 1;
-			opacity: 1;
 			background-image: url("/images/tartan.jpg");
-			background-repeat: repeat-y;
-			background-position: 60% 0;
+			background-repeat: repeat;		
 		}
 
 			header.major > :last-child {
@@ -3613,6 +3600,7 @@
 			#main > .post header.major * {
 				z-index: 2;
 				position: relative;
+				color: #eeeef9;
 			}
 			
 			#main > .post.featured {
