@@ -3567,7 +3567,7 @@
 	}
 
 		#main > * {
-			padding: 4rem 4rem 2rem 4rem ;
+			padding: 37px 1%;
 			border-top: solid 2px #eeeeee;
 			margin: 0;
 		}
@@ -3579,11 +3579,11 @@
 		#main > footer {
 			text-align: center;
 		}
-
+/*
 		#main > .post {
 			padding: 8rem 8rem 6rem 8rem ;
 		}
-
+*/
 			#main > .post header.major > .date {
 				margin-top: -2rem;
 			}
@@ -3619,7 +3619,7 @@
 				background-position: 60% 0;
 			}
 		
-
+/*
 			@media screen and (max-width: 1280px) {
 
 				#main > .post {
@@ -3627,13 +3627,13 @@
 				}
 
 			}
-
+*/
 			@media screen and (max-width: 800px) {
-
+/*
 				#main > .post {
 					padding: 4rem 2rem 2rem 2rem ;
 				}
-
+*/
 					#main > .post header.major > .date {
 						margin-top: -1rem;
 						margin-bottom: 2rem;
