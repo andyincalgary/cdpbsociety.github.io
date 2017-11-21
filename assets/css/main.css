@@ -2745,6 +2745,7 @@
 
 		header.major {
 			margin: 0 0 4rem 0;
+			padding: 37px 0;
 			text-align: center;
 			background-image: url("/images/tartan.jpg");
 			background-repeat: repeat;		
@@ -3569,9 +3570,9 @@
 	}
 
 		#main > * {
-			padding: 37px 1%;
+			padding: 0;
 			border-top: solid 2px #eeeeee;
-			margin: 0;
+			margin: 0px 0px 20px 0px;;
 		}
 
 			#main > *:first-child {
@@ -3601,6 +3602,7 @@
 				z-index: 2;
 				position: relative;
 				color: #eeeef9;
+				padding: 0 3%;
 			}
 			
 			#main > .post.featured {
@@ -3744,7 +3746,7 @@
 		@media screen and (max-width: 736px) {
 
 			#main > * {
-				padding: 2rem 2rem 0.1rem 2rem ;
+/*				padding: 2rem 2rem 0.1rem 2rem ;*/
 			}
 
 		}
@@ -3769,8 +3771,10 @@
 		color: #909498;
 		cursor: default;
 		position: relative;
+		/*
 		margin: 0 auto;
 		width: calc(100% - 4rem);
+		*/
 		max-width: 72rem;
 		z-index: 2;
 	}
