@@ -3574,13 +3574,14 @@
 			border-top: solid 2px #eeeeee;
 			margin: 0px 0px 20px 0px;;
 		}
-		#main section {
+		#main > section {
 			padding-bottom: 30px;
 			margin-bottom: 0px;
 		}
-		#main section p {
+		#main > section > * {
 			padding-top: 30px;
 			padding-bottom: 30px;
+			margin: 0px 4%;
 		}
 
 			#main > *:first-child {
@@ -3590,11 +3591,6 @@
 		#main > footer {
 			text-align: center;
 		}
-/*
-		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
-		}
-*/
 			#main > .post header.major > .date {
 				margin-top: -2rem;
 			}
@@ -3617,7 +3613,7 @@
 				text-align: center;
 			}
 			
-			#main > .post p {
+			#main > .post > p {
 				margin: 0px 4%;
 			}
 /*
