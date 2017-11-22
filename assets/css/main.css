@@ -3574,6 +3574,14 @@
 			border-top: solid 2px #eeeeee;
 			margin: 0px 0px 20px 0px;;
 		}
+		#main > section {
+			padding-top: 30px;
+			margin-bottom: 0px;
+		}
+		#main > section p {
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
 
 			#main > *:first-child {
 				border-top: 0;
