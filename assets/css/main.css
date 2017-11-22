@@ -2454,7 +2454,7 @@
 
 		.image.main {
 			display: block;
-			margin: 4rem 0;
+			margin: 2rem 0;
 			width: 100%;
 		}
 
@@ -3608,7 +3608,10 @@
 			#main > .post.featured {
 				text-align: center;
 			}
-					
+			
+			#main > .post.featured p {
+				margin: 0px 4%;
+			}
 /*
 			@media screen and (max-width: 1280px) {
 
